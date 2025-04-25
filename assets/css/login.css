@@ -221,7 +221,7 @@ header {
 }
 
 .btn-lg:hover {
-    background-color: rgb(238, 238, 238);
+    background-color: #fff;
     transform: scale(1.05);
     box-shadow: 0 9px 9px #000;
 }
@@ -311,7 +311,7 @@ footer img{
 .mobile-navigation {
     display: inherit;
     align-items: center;
-    background-color: #a486b0;;
+    background-color: #303030;
     color: #fff;
     border: none;
     font-size: 30px;

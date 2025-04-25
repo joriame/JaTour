@@ -155,7 +155,7 @@ header {
     margin-top: 10px;
 }
 
-button {
+.event button {
     font-family: Jost;
     padding: 10px 15px;
     background-color: #000;
@@ -165,7 +165,7 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.event button:hover {
     background-color: #fff;
     color: #000;
 }
@@ -327,6 +327,14 @@ footer {
 
 .logo_jp i{
     font-size: 16px;
+}
+
+.ticket h2 {
+    width: 80%;
+}
+
+.ticket button {
+    width: 50%;
 }
 
 }

@@ -21,7 +21,6 @@ html {
 }
 
 body {
-    background-image: url(../img_tokyo/bg1.jpg);
     background-size: 50px;
     font-family: Jost, sans-serif;
     color: #fafafa;
@@ -183,15 +182,25 @@ body {
         overflow-x: hidden;
     }
 
+    .main-header {
+        height: 50vh;
+    }
+
     .portfolio {
         display: none;
     }
 
+    .hero_section {
+        position: relative;
+    }
+
     .portfolio_2 {
         display: flex;
+        position: relative;
     }
 
     .gallery_2 {
+        position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -217,10 +226,9 @@ body {
 
     .hero {
         width: calc(var(--index) * 30);
-        position: absolute;
-        left: 10vw;
-        top: 20vh;
-        z-index: -1;
+        position: relative;
+        opacity: .6;
+        z-index: 1;
     }
 
 }
